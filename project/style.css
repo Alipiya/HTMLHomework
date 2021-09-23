@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.top {
+    background: #222222;
+    height: 75px;
+    display: flex;
+}
+.b {
+    margin-top: 18px;
+   float: left;    
+}
+.search {
+    margin-top: 28px;
+    margin-left: 41px;
+    float: left;
+}
+.cont {
+    float: right;
+    padding-left: 25px;
+    padding-top: 26px;
+}
+.pay {
+    float: right;
+    padding-left: 42px;
+    padding-top: 26px;
+}
+summary {
+    width: 32px;
+    height: 23px;
+    display: block;
+}
+summary::-webkit-details-marker {
+    display: none;
+}
+summary::after {
+    width: 32px;
+    height: 23px;
+}
+details {
+    float: right;
+    margin-top: 30px;
+    position: relative;
+}
+.menu {
+    background: #FFFFFF;
+    -webkit-box-shadow: -5px 5px 28px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: -5px 5px 28px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: -5px 5px 28px 0px rgba(0, 0, 0, 0.4);
+    margin-top: 22px;
+    width: 232px;
+    height: 764px;
+    position: absolute;
+}
+.h4-menu {
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-top: 37px;
+    padding-left: 34px;
+}
+.h4 {
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    padding-left: 33px;
+}
+.p-menu {
+    text-decoration: none;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    padding-left: 55px;
+}
+.p-menu:hover {
+    color: #F16D7F;
+    font-size: 17px;
+}
+.brand {
+    background: #F1E4E6;
+    height: 764px;
+    display: flex;
+    justify-content: flex-start;
+}
+.man-top {
+    margin-left: 150px;
+}
+.the-brand {
+    margin-top: 290px;
+    height: 93px;
+}
+.content {
+    margin-top: 65px;
+}
+.box {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+.for-woman {
+    transition: 1s;
+}
+.for-woman:hover {
+    transform: scale(1.2);
+}  
+.for-man {
+    transition: 1s;
+}
+.for-man:hover {
+    transform: scale(1.2);
+}
+.for-kids {
+    transition: 1s;
+}
+.for-kids:hover {
+    transform: scale(1.2);
+}
+.acces {
+    margin-top: 30px;
+    margin-bottom: 96px;
+    transition: 1s;
+}
+.acces:hover {
+    transform: scale(1.2);
+}
+.shopping {
+    margin-bottom: 48px;
+    text-align: center;
+}
+.box1 {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    height: 581px;
+}
+.box2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 581px;
+}
+.cards {
+    height: 420px;
+    background: rgba(58, 56, 56, 0.86);
+    display: block;
+}
+.text {
+    background: #F8F8F8;
+    text-align: left;
+    height: 161px;
+    margin-top: -5px;   
+}
+.paypall {
+    width: 360px;
+    height: 420px;
+    opacity: 1;
+    transition: opacity 150ms linear;
+}
+.paypall:hover {
+    opacity: 0.2;
+}
+.ellery {
+    width: 200px;
+    height: 16px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding-top: 25.35px;
+    padding-left: 18px;
+}
+.known {
+    width: 314.74px;
+    height: 51px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-top: 13px;
+    padding-left: 18px;
+}
+.cent {
+    width: 52.46px;
+    height: 19px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding-top: 18px;
+    padding-left: 18px;
+}
+.button-catalog {
+    background: #F16D7F;
+    border: 1px solid #FF6A6A;
+    width: 211px;
+    height: 47px;
+    margin-bottom: 95.5px;
+    margin-top: 48.5px;
+}
+.browse-all-prod {
+    padding-top: 14.5px;
+    padding-left: 38.5px;
+    text-decoration: none;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.footer1 {
+    background: #222224;
+    height: 341px;
+}
+.footer2 {
+    background: url(img/fon-podval.svg) no-repeat;
+    height: 448px;
+}
+.prava {
+    height: 79px;
+    background: #222224;
+}
