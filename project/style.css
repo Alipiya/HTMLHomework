@@ -95,6 +95,7 @@ details {
 }
 .brand {
     display: flex;
+    justify-content: space-between;
     background-color: #F1E4E6;
     height: 764px;
 }
@@ -180,10 +181,14 @@ details {
     justify-content: space-between;
     height: 581px;
 }
+.cards-pay {
+    position: relative;
+}
 .cards {
     height: 420px;
     background: rgba(58, 56, 56, 0.86);
     display: block;
+    text-decoration: none;
 }
 .text {
     background: #F8F8F8;
@@ -199,6 +204,39 @@ details {
 }
 .paypall:hover {
     opacity: 0.2;
+}
+.add-hover {
+    display: none;
+    position: absolute;
+    top: 188.5px;
+    justify-content: center;
+    width: 100%;
+    pointer-events: none;
+}
+.dec-hover-href {
+    text-decoration: none;
+    display: flex;
+    border: 1px solid #FFFFFF;
+    align-items: center;
+    width: 138px;
+    height: 43px;
+}
+.card-pay-hover {
+    padding-left: 13px;
+    height: 24px;
+    width: 26px;
+}
+.add-to-cart-hover {
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding-left: 11px;
+}
+.cards-pay:hover .add-hover{
+    display: flex;
 }
 .ellery {
     width: 200px;
@@ -236,6 +274,7 @@ details {
     padding-top: 18px;
     padding-left: 18px;
 }
+
 .browse-all-prod {
     background: #F16D7F;
     border: 1px solid #FF6A6A;
@@ -268,4 +307,17 @@ details {
 .prava {
     height: 79px;
     background: #222224;
+}
+
+
+
+
+.txt {
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+    padding-top: 30px;
 }
