@@ -85,7 +85,7 @@ details {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 25px;
     color: #6F6E6E;
     padding-left: 55px;
 }
@@ -94,38 +94,41 @@ details {
     font-size: 17px;
 }
 .brand {
-    background-color: #F1E4E6;
     display: flex;
-    justify-content: center;
+    background-color: #F1E4E6;
     height: 764px;
 }
-.man-top {
-    justify-content: center;
-}
 .brand-text {
-    background-color: #F1E4E6;
+    margin-top: 290px;
+    border-left: 12px solid #F16D7F;
+    height: 92px;
+}
+.the-brand {
+    padding-left: 16px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+.of-lux {
+    padding-left: 16px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    margin-top: 290px;
-    align-content: center;
-    height: 80px;
-    border-left: 12px solid #F16D7F;
-    padding-left: 16px;
-    padding-top: 10px;
-    width: 50%;
-    font-family: Lato, Helvetica, sans-serif;
-}
-.the-brand {
-    font-weight: 900;
-    font-size: 48px;
-}
-.of-lux {
-    font-family: Lato, Helvetica, sans-serif;
+    color: #222222;
 }
 .fashion {
     color: #F16D7F;
     font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #F16D7F;
 }
 .content {
     margin-top: 65px;
@@ -233,24 +236,20 @@ details {
     padding-top: 18px;
     padding-left: 18px;
 }
-.button-catalog {
+
+.browse-all-prod {
     background: #F16D7F;
     border: 1px solid #FF6A6A;
+    display: flex;
+    justify-content: center;
     width: 211px;
     height: 47px;
-    margin-bottom: 95.5px;
-    margin-top: 48.5px;
-}
-.browse-all-prod {
-    padding-top: 14.5px;
-    padding-left: 38.5px;
-    text-decoration: none;
     font-family: Lato, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #FFFFFF;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+    padding: 15px 39px;
+    margin: 49px 465px 95px;
 }
 .footer1 {
     background: #222224;
