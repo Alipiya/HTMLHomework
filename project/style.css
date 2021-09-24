@@ -236,7 +236,6 @@ details {
     padding-top: 18px;
     padding-left: 18px;
 }
-
 .browse-all-prod {
     background: #F16D7F;
     border: 1px solid #FF6A6A;
@@ -250,6 +249,13 @@ details {
     align-items: center;
     padding: 15px 39px;
     margin: 49px 465px 95px;
+}
+.browse-all-prod:hover {
+    background: #ffffff;
+    color: #F16D7F;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    text-decoration: underline;
 }
 .footer1 {
     background: #222224;
