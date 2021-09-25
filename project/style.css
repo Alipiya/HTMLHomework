@@ -53,7 +53,7 @@ details {
     -webkit-box-shadow: -5px 5px 28px 0px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: -5px 5px 28px 0px rgba(0, 0, 0, 0.4);
     box-shadow: -5px 5px 28px 0px rgba(0, 0, 0, 0.4);
-    margin-top: 22px;
+    margin: 22px 0 0 0;
     width: 232px;
     height: 764px;
     position: absolute;
@@ -94,42 +94,35 @@ details {
     font-size: 17px;
 }
 .brand {
-    display: flex;
-    justify-content: space-between;
     background-color: #F1E4E6;
     height: 764px;
 }
-.brand-text {
-    margin-top: 290px;
-    border-left: 12px solid #F16D7F;
-    height: 92px;
+.man-top {
+    background: url(img/man-top.png) -50% 50% no-repeat;
+    display: flex;
+    padding: 364px 0 297px 0;
+    justify-content: end;
 }
-.the-brand {
-    padding-left: 16px;
-    font-family: Lato, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 58px;
-    color: #222222;
+.brand-text {
+    background-color: #f16d7f;
+    min-width: 12px;
+    margin: -8px 16px 6px 5px;
 }
 .of-lux {
-    padding-left: 16px;
     font-family: Lato, Helvetica, sans-serif;
-    font-style: normal;
+    max-width: 589px;
+    font-size: 40px;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
+    letter-spacing: 0.025em;
     color: #222222;
+    margin: -32px 68px -5px 0;
+} 
+span:first-child {
+    font-size: 60px;
+    font-weight: 900;
 }
-.fashion {
-    color: #F16D7F;
-    font-family: Lato, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    color: #F16D7F;
+span:last-child {
+    color: #f16d7f;
 }
 .content {
     margin-top: 65px;
@@ -293,25 +286,104 @@ details {
     background: #ffffff;
     color: #F16D7F;
     -webkit-transition: all 1s ease;
-    transition: all 1s ease;
+    transition: all 120ms ease;
     text-decoration: underline;
 }
 .footer1 {
     background: #222224;
     height: 341px;
 }
+.centr {
+    display: flex;
+    justify-content: space-between;
+}
+.super-block {
+    width: 360px;
+    margin-top: 103px;
+    text-align: center
+}
+.foot-1-h4 {
+    font-family: Lato, Helvetica, sans-serif;    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.96px;
+    line-height: 24px;
+    text-align: center;
+    color: #FBFBFB;
+    margin-top: 28px;
+}
+.foot-1-p {
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+    margin-top: 16px;
+}
+.img-foot-1 {
+    text-align: center;
+}
 .footer2 {
-    background: url(img/fon-podval.svg) no-repeat;
+    background: url(img/fon-podval.svg) no-repeat center / cover;
     height: 448px;
+}
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+}
+.avtor {
+    text-align: center;
+    margin: 88px 0 0 0;
+}
+.vestibul {
+    width: 360px;
+    padding-top: 30px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+.form {
+    margin-top: 150px;
+}
+.input-group {
+    margin-top: 32px;
+    text-align: center;
+}
+.form-control {
+    background: #E1E1E1;
+    width: 323px;
+    height: 49px;
+    border: 0px;
+    border-radius: 50px 0 0 50px;
+}
+.button {
+    background: #E05C6E;
+    border: 0px;
+    width: 100px;
+    height: 49px;
+    border-radius: 0 50px 50px 0;
+    margin-left: -5px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.button:hover {
+    background: #FFFFFF;
+    color: #E05C6E;
 }
 .prava {
     height: 79px;
     background: #222224;
 }
-
-
-
-
 .txt {
     font-family: Lato, Helvetica, sans-serif;
     font-style: normal;
@@ -320,4 +392,13 @@ details {
     line-height: 19px;
     color: #FBFBFB;
     padding-top: 30px;
+}
+.ssilka {
+    background: #FFFFFF;
+    width: 32px;
+    height: 32px;
+    margin-top: 24px;
+}
+.ssilka:hover {
+    background: #F16D7F;
 }
