@@ -585,3 +585,163 @@ ul.breadcrumb li:last-of-type {
 .product-catalog-otstup-128px {
    margin-bottom: 128px; 
 }
+.shopping-cart-full {
+   margin-top: 96px;
+   display: flex;
+   justify-content: start;
+}
+.pay-product-box {
+    display: flex;
+    flex-direction: column;
+}
+.cart-pay-shopping {
+    width: 652px;
+    height: 306px;
+    box-shadow: 10px 15px 15px 3px rgb(0 0 0 / 40%);
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: start;
+}
+.cart-pay-shopping-img {
+    width: 262px;
+}
+.opisanie-tovara-pay {
+    display: flex;
+    flex-direction: column;
+    padding-left: 31px;
+}
+.opis-tovara-name {
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    padding-bottom: 42px;
+    padding-top: 22px;
+}
+.opis-tovara-character {
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+    padding-bottom: 6px;
+}
+.shipping-adress-box {
+    margin-left: 128px;
+}
+.shipping-adress-txt {
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.input-info-pay-people {
+    width: 360px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    margin-bottom: 23px;
+    padding-left: 17px;
+}
+.btn-get-a-quote {
+    background: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    width: 101px;
+    height: 35px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    margin-bottom: 56px;
+}
+.btn-get-a-quote:hover {
+    background: #F26376;
+}
+.itog-checkpoint-pay {
+    background: #F5F3F3;
+    width: 360px;
+    height: 214px;
+}
+.total-pay-price {
+    text-align: right;
+}
+.sub-total-price {
+    padding-top: 39px;
+    padding-right: 34px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+}
+.sub-grand-price {
+    padding-right: 37px;
+    padding-top: 12px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    padding-bottom: 21px;
+}
+
+.btn-procceed-to-check {
+    width: 273px;
+    height: 50px;
+    background: #F16D7F;
+    border: none;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 44px;
+}
+.btn-procceed-to-check:hover {
+    background: #FFFFFF;
+    color: #F16D7F;
+}
+.btn-box-cart-shop {
+    display: flex;
+    justify-content: flex-start;
+}
+.btn-shopping-cart-del {
+    width: 235px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.btn-shopping-cart-del:hover, .btn-shopping-cart-cnt:hover {
+    background: #F16D7F;
+}
+.btn-shopping-cart-cnt {
+    width: 225px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-left: 192px;
+}
