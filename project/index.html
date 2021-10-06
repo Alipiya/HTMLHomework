@@ -8,8 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-
-
+    <link rel="stylesheet" href="style.scss">
 </head>
 
 <body>
@@ -19,7 +18,7 @@
                 <div class="b"><a href="index.html"><img src="img/b.svg" alt="b"></a></div>
                 <div class="search"><img src="img/poisk.svg" alt="poisk"></div>
                 <div class="pay"><a href="card.html"><img src="img/pay.svg" alt="pay"></a></div>
-                <div class="cont"><a href="#"><img src="img/contact.svg" alt="contact"></a></div>
+                <div class="cont"><a href="registration.html"><img src="img/contact.svg" alt="contact"></a></div>
                 <details>
                     <summary><svg viewBox="0 0 24 24" id="ines">
                             <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="#E8E8E8" fill-rule="evenodd">
@@ -72,129 +71,131 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="shopping">
-            <div class="container">
-                <h3 style="font-family: Lato, Helvetica, sans-serif;
+    <section class="shopping">
+        <div class="container">
+            <h2 style="font-family: Lato, Helvetica, sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 30px;
             line-height: 36px;
-            color: #222222;">Fetured Items</h3>
-                <p style="font-family: Lato, Helvetica, sans-serif; font-style: normal;
+            color: #222222;">Fetured Items</h2>
+            <p style="font-family: Lato, Helvetica, sans-serif; font-style: normal;
             font-weight: normal;
             font-size: 14px;
             line-height: 17px;
-            color: #9F9F9F;">Shop for items based on what we featured in this week</p>
-            </div>
-            <div class="container">
-                <div class="box1">
-                    <div class="cards-pay">
-                        <a class="cards" href="product.html"><img class="paypall" src="img/pay-1.svg" alt="pay-1">
-                            <div class="text">
-                                <h3 class="ellery">ELLERY X M'O CAPSULE</h3>
-                                <p class="known">Known for her sculptural
-                                    takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with
-                                    Moda
-                                    Operandi.
-                                </p>
-                                <p class="cent">$52.00</p>
-                            </div>
+            color: #9F9F9F; padding-bottom: 48px;">Shop for items based on what we featured in this week</p>
+        </div>
+        <div class="container">
+            <div class="box-berry">
+                <div class="cards-pay">
+                    <a class="cards" href="product.html">
+                        <img class="paypall" src="img/pay-1.svg" alt="pay-1">
+                        <div class="text">
+                            <h3 class="ellery">ELLERY X M'O CAPSULE</h3>
+                            <p class="known">Known for her sculptural
+                                takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with
+                                Moda
+                                Operandi.
+                            </p>
+                            <p class="cent">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-hover">
+                        <a class="dec-hover-href" href="card.html">
+                            <img class="card-pay-hover" src="img/card-pay.svg" alt="">
+                            <p class="add-to-cart-hover">Add to Cart</p>
                         </a>
-                        <div class="add-hover"><a class="dec-hover-href" href="catalog.html"><img class="card-pay-hover"
-                                    src="img/card-pay.svg" alt="">
-                                <p class="add-to-cart-hover">Add to Cart</p>
-                            </a></div>
-                    </div>
-                    <div class="cards-pay">
-                        <a class="cards" href="catalog.html"><img class="paypall" src="img/pay-2.svg" alt="pay-2">
-                            <div class="text">
-                                <h3 class="ellery">ELLERY X M'O CAPSULE</h3>
-                                <p class="known">Known for her sculptural
-                                    takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with
-                                    Moda
-                                    Operandi.
-                                </p>
-                                <p class="cent">$52.00</p>
-                            </div>
-                        </a>
-                        <div class="add-hover"><a class="dec-hover-href" href="catalog.html"><img class="card-pay-hover"
-                                    src="img/card-pay.svg" alt="">
-                                <p class="add-to-cart-hover">Add to Cart</p>
-                            </a></div>
-                    </div>
-                    <div class="cards-pay">
-                        <a class="cards" href="catalog.html"><img class="paypall" src="img/pay-3.svg" alt="pay-3">
-                            <div class="text">
-                                <h3 class="ellery">ELLERY X M'O CAPSULE</h3>
-                                <p class="known">Known for her sculptural
-                                    takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with
-                                    Moda
-                                    Operandi.
-                                </p>
-                                <p class="cent">$52.00</p>
-                            </div>
-                        </a>
-                        <div class="add-hover"><a class="dec-hover-href" href="catalog.html"><img class="card-pay-hover"
-                                    src="img/card-pay.svg" alt="">
-                                <p class="add-to-cart-hover">Add to Cart</p>
-                            </a></div>
                     </div>
                 </div>
-                <div class="box2">
-                    <div class="cards-pay">
-                        <a class="cards" href="catalog.html"><img class="paypall" src="img/pay-4.svg" alt="pay-4">
-                            <div class="text">
-                                <h3 class="ellery">ELLERY X M'O CAPSULE</h3>
-                                <p class="known">Known for her sculptural
-                                    takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with
-                                    Moda
-                                    Operandi.
-                                </p>
-                                <p class="cent">$52.00</p>
-                            </div>
+                <div class="cards-pay">
+                    <a class="cards" href="catalog.html"><img class="paypall" src="img/pay-2.svg" alt="pay-2">
+                        <div class="text">
+                            <h3 class="ellery">ELLERY X M'O CAPSULE</h3>
+                            <p class="known">Known for her sculptural
+                                takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with
+                                Moda
+                                Operandi.
+                            </p>
+                            <p class="cent">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-hover"><a class="dec-hover-href" href="catalog.html"><img class="card-pay-hover"
+                                src="img/card-pay.svg" alt="">
+                            <p class="add-to-cart-hover">Add to Cart</p>
+                        </a></div>
+                </div>
+                <div class="cards-pay">
+                    <a class="cards" href="catalog.html"><img class="paypall" src="img/pay-3.svg" alt="pay-3">
+                        <div class="text">
+                            <h3 class="ellery">ELLERY X M'O CAPSULE</h3>
+                            <p class="known">Known for her sculptural
+                                takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with
+                                Moda
+                                Operandi.
+                            </p>
+                            <p class="cent">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-hover"><a class="dec-hover-href" href="catalog.html"><img class="card-pay-hover"
+                                src="img/card-pay.svg" alt="">
+                            <p class="add-to-cart-hover">Add to Cart</p>
+                        </a></div>
+                </div>
+                <div class="cards-pay">
+                    <a class="cards" href="catalog.html"><img class="paypall" src="img/pay-4.svg" alt="pay-4">
+                        <div class="text">
+                            <h3 class="ellery">ELLERY X M'O CAPSULE</h3>
+                            <p class="known">Known for her sculptural
+                                takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with
+                                Moda
+                                Operandi.
+                            </p>
+                            <p class="cent">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-hover"><a class="dec-hover-href" href="catalog.html"><img class="card-pay-hover"
+                                src="img/card-pay.svg" alt="card-pay-hover">
+                            <p class="add-to-cart-hover">Add to Cart</p>
+                        </a></div>
+                </div>
+                <div class="cards-pay">
+                    <a class="cards" href="catalog.html"><img class="paypall" src="img/pay-5.svg" alt="pay-5">
+                        <div class="text">
+                            <h3 class="ellery">ELLERY X M'O CAPSULE</h3>
+                            <p class="known">Known for her sculptural
+                                takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with
+                                Moda
+                                Operandi.
+                            </p>
+                            <p class="cent">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-hover">
+                        <a class="dec-hover-href" href="catalog.html"><img class="card-pay-hover" src="img/card-pay.svg"
+                                alt="dec-hover-href">
+                            <p class="add-to-cart-hover">Add to Cart</p>
                         </a>
-                        <div class="add-hover"><a class="dec-hover-href" href="catalog.html"><img class="card-pay-hover"
-                                    src="img/card-pay.svg" alt="card-pay-hover">
-                                <p class="add-to-cart-hover">Add to Cart</p>
-                            </a></div>
-                    </div>
-                    <div class="cards-pay">
-                        <a class="cards" href="catalog.html"><img class="paypall" src="img/pay-5.svg" alt="pay-5">
-                            <div class="text">
-                                <h3 class="ellery">ELLERY X M'O CAPSULE</h3>
-                                <p class="known">Known for her sculptural
-                                    takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with
-                                    Moda
-                                    Operandi.
-                                </p>
-                                <p class="cent">$52.00</p>
-                            </div>
-                        </a>
-                        <div class="add-hover"><a class="dec-hover-href" href="catalog.html"><img class="card-pay-hover"
-                                    src="img/card-pay.svg" alt="dec-hover-href">
-                                <p class="add-to-cart-hover">Add to Cart</p>
-                            </a></div>
-                    </div>
-                    <div class="cards-pay">
-                        <a class="cards" href="catalog.html"><img class="paypall" src="img/pay-6.svg" alt="pay-6">
-                            <div class="text">
-                                <h3 class="ellery">ELLERY X M'O CAPSULE</h3>
-                                <p class="known">Known for her sculptural
-                                    takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with
-                                    Moda
-                                    Operandi.
-                                </p>
-                                <p class="cent">$52.00</p>
-                            </div>
-                        </a>
-                        <div class="add-hover"><a class="dec-hover-href" href="catalog.html"><img class="card-pay-hover"
-                                    src="img/card-pay.svg" alt="card-pay-hover">
-                                <p class="add-to-cart-hover">Add to Cart</p>
-                            </a></div>
                     </div>
                 </div>
-
+                <div class="cards-pay">
+                    <a class="cards" href="catalog.html"><img class="paypall" src="img/pay-6.svg" alt="pay-6">
+                        <div class="text">
+                            <h3 class="ellery">ELLERY X M'O CAPSULE</h3>
+                            <p class="known">Known for her sculptural
+                                takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with
+                                Moda
+                                Operandi.
+                            </p>
+                            <p class="cent">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-hover">
+                        <a class="dec-hover-href" href="catalog.html"><img class="card-pay-hover" src="img/card-pay.svg"
+                                alt="card-pay-hover">
+                            <p class="add-to-cart-hover">Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -255,10 +256,10 @@
                         text-align: center;
                         color: #222224;">FOR OUR NEWLETTER AND PROMOTION</span>
                         </h4>
-                        <div class="input-group">
+                        <form class="input-group">
                             <input type="email" class="form-control" placeholder="Enter Your Email">
                             <button class="button">Subscribe</button>
-                        </div>
+                        </form>
                     </div>
 
                 </div>
