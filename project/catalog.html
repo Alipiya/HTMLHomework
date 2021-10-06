@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
 </head>
 
 <body>
@@ -16,7 +17,7 @@
                 <div class="b"><a href="index.html"><img src="img/b.svg" alt="b"></a></div>
                 <div class="search"><img src="img/poisk.svg" alt="poisk"></div>
                 <div class="pay"><a href="card.html"><img src="img/pay.svg" alt="pay"></a></div>
-                <div class="cont"><a href="#"><img src="img/contact.svg" alt="contact"></a></div>
+                <div class="cont"><a href="registration.html"><img src="img/contact.svg" alt="contact"></a></div>
                 <details>
                     <summary><svg viewBox="0 0 24 24" id="ines">
                             <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="#E8E8E8" fill-rule="evenodd">
@@ -63,7 +64,7 @@
             </div>
         </div>
     </header>
-    <section>
+    <!-- <section>
         <div class="catalog">
             <div class="container">
                 <div class="filter">
@@ -120,10 +121,26 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <section>
         <div class="container">
-            <div class="box1">
+            <div class="settings">
+                <div class="filtr-catalog">FILTER <img src="img/filtr.svg" alt="filtr"></div>
+                <div class="setting-mini-catalog">
+                    <div class="top-box-info-catalog">
+                        <select class="top-info-catalog">
+                            <option value="" hidden disabled selected>TRENDING NOW</option>
+                        </select>
+                        <select class="top-info-catalog">
+                            <option value="" hidden disabled selected>SIZE</option>
+                        </select>
+                        <select class="top-info-catalog">
+                            <option value="" hidden disabled selected>PRICE</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="box-berry">
                 <div class="cards-pay">
                     <a class="cards" href="product.html"><img class="paypall" src="img/pay-1.svg" alt="pay-1">
                         <div class="text">
@@ -175,8 +192,6 @@
                             <p class="add-to-cart-hover">Add to Cart</p>
                         </a></div>
                 </div>
-            </div>
-            <div class="box2">
                 <div class="cards-pay">
                     <a class="cards" href="catalog.html"><img class="paypall" src="img/pay-4.svg" alt="pay-4">
                         <div class="text">
@@ -228,8 +243,6 @@
                             <p class="add-to-cart-hover">Add to Cart</p>
                         </a></div>
                 </div>
-            </div>
-            <div class="box2">
                 <div class="cards-pay">
                     <a class="cards" href="catalog.html"><img class="paypall" src="img/pay-10.svg" alt="pay-10">
                         <div class="text">
@@ -281,9 +294,9 @@
                             <p class="add-to-cart-hover">Add to Cart</p>
                         </a></div>
                 </div>
+
             </div>
-            .
-        </div>
+            <div class="pagination"><img class="pagination-img" src="img/pagination.svg" alt="pagination"></div>
     </section>
     <footer>
         <div class="footer1">
@@ -337,10 +350,10 @@
                     text-align: center;
                     color: #222224;">FOR OUR NEWLETTER AND PROMOTION</span>
                         </h4>
-                        <div class="input-group">
+                        <form class="input-group">
                             <input type="email" class="form-control" placeholder="Enter Your Email">
                             <button class="button">Subscribe</button>
-                        </div>
+                        </form>
                     </div>
 
                 </div>
