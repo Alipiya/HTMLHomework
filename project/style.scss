@@ -16,7 +16,7 @@
 }
 .b {
     margin-top: 18px;
-   float: left;    
+    float: left;    
 }
 .search {
     margin-top: 28px;
@@ -118,7 +118,7 @@ details {
     letter-spacing: 0.025em;
     color: #222222;
     margin: -32px 68px -5px 0;
-} 
+}
 span:first-child {
     font-size: 60px;
     font-weight: 900;
@@ -189,6 +189,7 @@ span:last-child {
 }
 .paypall {
     width: 100%;
+    transition: filter 700ms;
 }
 .cards-pay:hover .paypall {
     filter: brightness(30%);
@@ -256,7 +257,6 @@ span:last-child {
     padding-top: 18px;
     padding-left: 18px;
 }
-
 .browse-all-prod {
     background: #F16D7F;
     border: 1px solid #FF6A6A;
@@ -270,12 +270,11 @@ span:last-child {
     align-items: center;
     padding: 15px 39px;
     margin: 49px 465px 95px;
+    transition: background-color 500ms;
 }
 .browse-all-prod:hover {
     background: #ffffff;
     color: #F16D7F;
-    -webkit-transition: all 1s ease;
-    transition: all 120ms ease;
 }
 .footer1 {
     background: #222224;
@@ -288,7 +287,11 @@ span:last-child {
 .super-block {
     width: 360px;
     margin-top: 103px;
-    text-align: center
+    text-align: center;
+    transition: transform 800ms;
+}
+.super-block:hover {
+    transform: rotate(360deg) scale(2);
 }
 .foot-1-h4 {
     font-family: Lato, Helvetica, sans-serif;    
@@ -324,6 +327,10 @@ span:last-child {
 .avtor {
     text-align: center;
     margin: 88px 0 0 0;
+    transition: transform 500ms;
+}
+.avtor:hover {
+    transform: scale(1.5);
 }
 .vestibul {
     width: 360px;
@@ -364,6 +371,7 @@ span:last-child {
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
+    transition: background-color 500ms;
 }
 .button:hover {
     background: #FFFFFF;
@@ -387,9 +395,11 @@ span:last-child {
     width: 32px;
     height: 32px;
     margin-top: 24px;
+    transition: all 800ms;
 }
 .ssilka:hover {
     background: #F16D7F;
+    transform: scale(1.5);
 }
                               /* CATALOG */
 
@@ -572,11 +582,10 @@ ul.breadcrumb li:last-of-type {
     background-color: #fff;
     margin-top: 49px;
     margin-bottom: 65px;
+    transition: background-color 500ms;
 }
 .add-to-cart-product:hover {
     background: #EAEAEA;
-    -webkit-transition: all 1s ease;
-    transition: all 120ms ease;
 }
 .add-to-cart-product-button {
     padding-top: 5%;
@@ -609,10 +618,14 @@ ul.breadcrumb li:last-of-type {
 .cart-pay-shopping {
     width: 652px;
     height: 306px;
-    box-shadow: 10px 15px 15px 3px rgb(211, 173, 211);
+    box-shadow: 10px 15px 15px 3px rgb(105, 101, 105);
     margin-bottom: 40px;
     display: flex;
     justify-content: start;
+    transition: transform 800ms;
+}
+.cart-pay-shopping:hover {
+    transform: scale(1.1);
 }
 .cart-pay-shopping-img {
     width: 262px;
@@ -674,6 +687,7 @@ ul.breadcrumb li:last-of-type {
     line-height: 13px;
     color: #4A4A4A;
     margin-bottom: 56px;
+    transition: background-color 500ms;
 }
 .btn-get-a-quote:hover {
     background: #F26376;
@@ -707,7 +721,6 @@ ul.breadcrumb li:last-of-type {
     color: #222222;
     padding-bottom: 21px;
 }
-
 .btn-procceed-to-check {
     width: 273px;
     height: 50px;
@@ -720,6 +733,7 @@ ul.breadcrumb li:last-of-type {
     line-height: 19px;
     color: #FFFFFF;
     margin-left: 44px;
+    transition: background-color 500ms;
 }
 .btn-procceed-to-check:hover {
     background: #FFFFFF;
@@ -740,6 +754,7 @@ ul.breadcrumb li:last-of-type {
     font-size: 14px;
     line-height: 17px;
     color: #000000;
+    transition: background-color 500ms;
 }
 .btn-shopping-cart-del:hover, .btn-shopping-cart-cnt:hover {
     background: #F16D7F;
@@ -821,23 +836,35 @@ ul.breadcrumb li:last-of-type {
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
+    transition: background-color 500ms;
 }
 .btn-registration-join-now:hover {
     background: #FFFFFF;
     color: #F16D7F;
     border: 1px solid  #F16D7F;
 }
-.registration-check-box-text {
+.spisok-reg {
+    list-style-image: url(img/ul-registration.svg);
+    padding-left: 21px;
+}
+.li-spisok-reg {
+    padding-top: 17px;
+}
+.reg-txt-top {
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding-bottom: 22px;
+}
+.reg-txt-two {
     font-family: Lato, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 29px;
     color: #000000;
-}
-.spisok-reg {
-    list-style-image: url(img/ul-registration.svg);
-}
-.li-spisok-reg {
-    padding-top: 17px;
+    padding-bottom: 5px;
 }
